@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Credit Card Validator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .card-type {
+            margin-top: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Credit Card Validator</h1>
+    <p>Credit Card Validator</p>
+    <p>Write a JavaScript program to validate that a credit card number:</p>
+    <ul>
+        <li>It must have 16 digits, unless it starts with 37 or 34. Then, and only then, it MUST have 15 digits</li>
+        <li>It must start with one of the folliowing. Print off "valid" and the type of card</li>
+        <div class="card-type">
+            <ul>
+                <li>6011 = Discover Card</li>
+                <li>37 or 34 = American Express</li>
+                <li>4 = Visa</li>
+                <li>50-55 = MasterCard</li>
+            </ul>
+        </div>
+    </ul>
+   
+    <script src="creditCardValidator.js"></script>
+</body>
+</html>
